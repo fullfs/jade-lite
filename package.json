@@ -1,7 +1,7 @@
 {
-  "name": "jade",
+  "name": "jade-lite",
   "description": "A clean, whitespace-sensitive template language for writing HTML",
-  "version": "1.11.0",
+  "version": "0.1.0",
   "author": "TJ Holowaychuk <tj@vision-media.ca>",
   "maintainers": [
     "Forbes Lindesay <forbes@lindesay.co.uk>",
@@ -27,8 +27,6 @@
     "jade-code-gen": "0.0.2",
     "jade-filters": "0.0.2",
     "jade-lexer": "0.0.6",
-    "jade-linker": "0.0.1",
-    "jade-load": "0.0.3",
     "jade-parser": "0.0.8",
     "jade-runtime": "^1.1.0",
     "jade-walk": "0.0.2",
@@ -68,6 +66,9 @@
     "stylus": "*",
     "twbs": "0.0.6",
     "uglify-js": "^2.4.23"
+  },
+  "publishConfig": {
+    "registry": "http://sinopia.app.s/"
   },
   "scripts": {
     "test": "mocha -R spec --bail",
